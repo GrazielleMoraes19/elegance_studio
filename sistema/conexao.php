@@ -22,6 +22,7 @@ $telefone_sistema = '(11)  98540-1022';
 $endereco_sistema = 'Rua elegance, 19';
 $senha_sistema = 'elegance';
 
+
 $query = $pdo->query("SELECT * FROM config");
 $res = $query->fetchAll(PDO::FETCH_ASSOC);
 $total_reg = @count($res);
