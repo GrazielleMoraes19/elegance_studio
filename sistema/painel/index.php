@@ -99,42 +99,42 @@ if(@$_SESSION['nome'] == ""){
 	<div class="col-md-4">
 		<div class="mb-3">
 			<label for="exampleFormControlInput1" class="form-label">Instagram</label>
-			<input name="email" type="email" class="form-control" placeholder="Instagram" value="<?php echo $instagram_sistema ?>" required>
+			<input name="instagram" type="text" class="form-control" placeholder="Instagram" value="<?php echo $instagram_sistema ?>" required>
 		</div>
 	</div>
 
 	<div class="col-md-4 col-8">
 		<div class="mb-3">
 			<label for="exampleFormControlInput1" class="form-label">Twitter</label>
-			<input name="senha" type="password" class="form-control" placeholder="Twitter" value="<?php echo $twitter_sistema ?>" required>
+			<input name="twitter" type="text" class="form-control" placeholder="Twitter" value="<?php echo $twitter_sistema ?>" required>
 		</div>
 	</div>
 
 	<div class="col-md-3">
 		<div class="mb-3">
 			<label for="exampleFormControlInput1" class="form-label">Facebook</label>
-			<input name="telefone" id="telefone" type="text" class="form-control" placeholder="Facebook" value="<?php echo $facebook_sistema ?>">
+			<input name="facebook" type="text" class="form-control" placeholder="Facebook" value="<?php echo $facebook_sistema ?>">
 		</div>
 	</div>
 
     <div class="col-md-3">
 		<div class="mb-3">
 			<label for="exampleFormControlInput1" class="form-label">Linkedin</label>
-			<input name="endereco" type="text" class="form-control" placeholder="linkedin" value="<?php echo $linkedin_sistema ?>">
+			<input name="linkedin" type="text" class="form-control" placeholder="linkedin" value="<?php echo $linkedin_sistema ?>">
 		</div>
 	</div>
 
     <div class="col-md-3">
 		<div class="mb-3">
 			<label for="exampleFormControlInput1" class="form-label">Youtube</label>
-			<input name="endereco" type="text" class="form-control" placeholder="youtube" value="<?php echo $youtube_sistema ?>">
+			<input name="youtube" type="text" class="form-control" placeholder="youtube" value="<?php echo $youtube_sistema ?>">
 		</div>
 	</div>
 
     <div class="col-md-3">
 		<div class="mb-3">
 			<label for="exampleFormControlInput1" class="form-label">Cor Templente Hexadecimal</label>
-			<input name="endereco" type="text" class="form-control" placeholder="cor do templente" value="<?php echo $cor_sistema ?>">
+			<input name="cor" type="text" class="form-control" placeholder="cor do templente" value="<?php echo $cor_sistema ?>">
 		</div>
 	</div>
 
@@ -143,7 +143,7 @@ if(@$_SESSION['nome'] == ""){
     <div class= "col-md-12">
         <div class= "mb-3">
             <label for="exampleFormControlInput1" class="form-label">Texto Rodepé Site</label>
-			<input name="endereco" type="text" class="form-control" placeholder="rodapé" value="<?php echo $texto_rodape ?>">
+			<input name="texto_rodape" type="text" class="form-control" placeholder="rodapé" value="<?php echo $texto_rodape ?>">
         </div>
 
     </div>
@@ -154,7 +154,7 @@ if(@$_SESSION['nome'] == ""){
     <div class= "col-md-5">
         <div class= "mb-3">
             <label for="exampleFormControlInput1" class="form-label">Titulo Contato</label>
-			<input name="endereco" type="text" class="form-control" placeholder="entre em contato" value="<?php echo $titulo_contato ?>">
+			<input name="titulo_contato" type="text" class="form-control" placeholder="entre em contato" value="<?php echo $titulo_contato ?>">
         </div>
 
     </div>
@@ -162,7 +162,7 @@ if(@$_SESSION['nome'] == ""){
     <div class="col-md-7">
 		<div class="mb-3">
 			<label for="exampleFormControlInput1" class="form-label">Subtitulo contato</label>
-			<input name="endereco" type="text" class="form-control" placeholder='' value="<?php echo $subtitulo_contato ?>">
+			<input name="subtitulo_contato" type="text" class="form-control" placeholder='' value="<?php echo $subtitulo_contato ?>">
 		</div>
 	</div>
 
